@@ -5,11 +5,11 @@ zz (Chinese word for **Regex Expression** is **正则表达式**, the 'pin yin' 
 ## Hello World
 
 ```
-^
-hello
-|
-world
-$
+^      ; Here is start
+hello  ; Here is 'hello'
+|      ; Here is `or`
+world  ; Here is 'world'
+$      ; Here is end
 ```
 
 Result:
@@ -32,19 +32,4 @@ Result:
 (?:\r?\n|^)
 .*
 )*
-```
-
-Result:
-
-```
-```
-
-## src / js
-
-```js
-const fs = require('fs')
-
-const zz = fs.readFileSync('test.txt', { encoding: 'utf8' })
-const zzz = zz.replaceAll(/\r?\n/g, '')
-const r = new RegExp(zzz, 'g')
 ```
