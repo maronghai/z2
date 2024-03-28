@@ -5,11 +5,11 @@ zz (Chinese word for **Regex Expression** is **正则表达式**, the 'pin yin' 
 ## Hello World
 
 ```
-^      ; Here is start
-hello  ; Here is 'hello'
-|      ; Here is `or`
-world  ; Here is 'world'
-$      ; Here is end
+^       ; Here is start
+hello   ; Here is 'hello'
+|       ; Here is `or`
+world   ; Here is 'world'
+$       ; Here is end
 ```
 
 Result:
