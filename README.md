@@ -31,7 +31,7 @@ Result:
 
 ## Echosystem
 
-1. [DB Spec](https://github.com/maronghai/dbcreate)
+1. [DB Create](https://github.com/maronghai/dbcreate)
 
 ## License
 
