@@ -1,6 +1,6 @@
-# zz
+# ZZ
 
-zz (Chinese word for **Regex Expression** is **正则表达式**, the 'pin yin' is `zheng4 ze2 biao3 da2 shi4`, and **zz** for short).
+**ZZ** (Chinese word for **Regex** is **正则**, the 'Pin Yin' is `Zheng4 Ze2`, and **ZZ** for short).
 
 ## Hello World
 
