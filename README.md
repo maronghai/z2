@@ -1,8 +1,6 @@
 # ZZ
 
-**ZZ** (Chinese word for **Regex** is **正则**, the 'Pin Yin' is `Zheng4 Ze2`, **ZZ** for short).
-
-## Features
+**ZZ** (Chinese word for **Regex** is **正则**, the 'Pin Yin' is `Zheng4 Ze2`, **ZZ** for short) is a regex expression tool that aims to provide a faster and leaner development experience for regex expression projects. It consists of two major parts:
 
 1. Multi-line regex expression
 2. Inline comment
