@@ -26,7 +26,7 @@ Result:
 ```asm
 (?:
   (?:[ ]*)        ; spaces prefix
-  (?:.*?)         ; Regex expression
+  (?:.*?)?        ; Regex expression
   (?: {3,};.*)?   ; Commen with three or more spaces and ';' prefix
   \n              ; new line
 )*
