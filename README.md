@@ -21,12 +21,15 @@ Result:
 ^hello|world$
 ```
 
-## Tokenizer
+## zz.zz
 
 ```asm
-(?:.*?)
-(?: {3,};.*)?
-\n
+(?:
+  (?:[ ]*)        ; spaces prefix
+  (?:.*?)         ; Regex expression
+  (?: {3,};.*)?   ; Commen with three or more spaces and ';' prefix
+  \n              ; new line
+)*
 ```
 
 ## Echosystem
